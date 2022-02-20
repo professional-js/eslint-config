@@ -1,0 +1,29 @@
+{
+	"type": "module",
+	"scripts": {
+		"test": "eslint --fix . *>&1 > eslint.log"
+	},
+	"eslintConfig": {
+		"root": true,
+		"extends": "@professional-js/eslint-config/all",
+		"ignorePatterns": [ "__pkg__" ],
+		"parserOptions": {
+			"ecmaVersion": 2021,
+			"sourceType": "module"
+		}
+	},
+	"dependencies": {
+		"@professional-js/eslint-config": "file:./__pkg__"
+	},
+	"devDependencies": {
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-simple-import-sort": "^7.0.0",
+		"eslint": "^8.7.0"
+	},
+	"peerDependencies": {
+		"rimraf": "*"
+	},
+	"optionalDependencies": {
+		"outdent": "*"
+	}
+}

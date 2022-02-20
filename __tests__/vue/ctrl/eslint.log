@@ -1,0 +1,11 @@
+
+__test-results__/vue/HelloWorld.vue
+	4:1	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	4:1	error	'defineProps' is not defined	no-undef
+	6:7	error	Unsafe assignment of an `any` value	@typescript-eslint/no-unsafe-assignment
+	6:7	error	'count' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	6:15	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	6:19	error	No magic number: 0	@typescript-eslint/no-magic-numbers
+
+Γ£û 6 problems (6 errors, 0 warnings)
+

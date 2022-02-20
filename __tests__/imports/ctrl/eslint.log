@@ -1,0 +1,41 @@
+
+__test-results__/imports/index.js
+	3:1	error	'outdent' should be listed in the project's dependencies, not optionalDependencies	import/no-extraneous-dependencies
+	3:8	error	Using exported name 'outdent' as identifier for default export	import/no-named-as-default
+	4:1	error	'rimraf' should be listed in the project's dependencies. Run 'npm i -S rimraf' to add it	import/no-extraneous-dependencies
+	6:8	error	'src' is defined but never used	no-unused-vars
+	6:17	warning	Missing file extension "js" for "./src"	import/extensions
+	6:17	error	'__test-results__/imports/src/index.js' imported multiple times	import/no-duplicates
+	9:8	error	Do not import modules using an absolute path	import/no-absolute-path
+	9:8	error	Unable to resolve path to module '/absolute/package.json'	import/no-unresolved
+	11:15	warning	Missing file extension for "../important/src"	import/extensions
+	11:15	error	Unable to resolve path to module '../important/src'	import/no-unresolved
+	13:15	error	No named exports found in module './src'	import/export
+	13:15	warning	Missing file extension "js" for "./src"	import/extensions
+	14:15	error	No named exports found in module './src/index'	import/export
+	14:15	warning	Missing file extension "js" for "./src/index"	import/extensions
+	17:8	error	'z' is defined but never used	no-unused-vars
+	17:15	warning	Missing file extension "js" for "../imports/src"	import/extensions
+	17:15	error	'__test-results__/imports/src/index.js' imported multiple times	import/no-duplicates
+	18:8	error	'zz' is defined but never used	no-unused-vars
+	18:16	warning	Missing file extension "js" for "../imports/src/index"	import/extensions
+	18:16	error	'__test-results__/imports/src/index.js' imported multiple times	import/no-duplicates
+	19:8	error	'y' is defined but never used	no-unused-vars
+	19:15	warning	Missing file extension for "../src"	import/extensions
+	19:15	error	Unable to resolve path to module '../src'	import/no-unresolved
+	21:8	error	'x' is defined but never used	no-unused-vars
+	21:15	warning	Missing file extension "js" for "./src/index"	import/extensions
+	21:15	error	'__test-results__/imports/src/index.js' imported multiple times	import/no-duplicates
+	22:8	error	'xx' is defined but never used	no-unused-vars
+	22:16	error	'__test-results__/imports/src/index.js' imported multiple times	import/no-duplicates
+	33:8	error	'rimraf' is already declared in the upper scope on line 4 column 8	no-shadow
+
+__test-results__/imports/src/index.js
+	2:17	error	Unable to resolve path to module 'ava'	import/no-unresolved
+	3:1	error	'eslint' should be listed in the project's dependencies, not devDependencies	import/no-extraneous-dependencies
+	4:1	error	'outdent' should be listed in the project's dependencies, not optionalDependencies	import/no-extraneous-dependencies
+	4:8	error	Using exported name 'outdent' as identifier for default export	import/no-named-as-default
+	14:8	error	'ava' is already declared in the upper scope on line 2 column 8	no-shadow
+
+Γ£û 34 problems (26 errors, 8 warnings)
+

@@ -1,0 +1,10 @@
+
+__test-results__/default/index.js
+	3:1	error	Unexpected newline between function and ( of function call	no-unexpected-multiline
+	15:10	error	'tryMe' is defined but never used	no-unused-vars
+	16:31	error	No magic number: 1	no-magic-numbers
+	17:31	error	No magic number: -1	no-magic-numbers
+	20:24	error	No magic number: 10	no-magic-numbers
+
+Γ£û 5 problems (5 errors, 0 warnings)
+

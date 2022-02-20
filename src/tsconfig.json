@@ -1,0 +1,14 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+	},
+	"include": [
+		"eslintrc.all.dangerzone.ts",
+		"eslintrc.all.ts",
+		"eslintrc.default.ts",
+		"eslintrc.important.ts",
+		"eslintrc.make.ts",
+	],
+}

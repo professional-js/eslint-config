@@ -1,0 +1,25 @@
+{
+	"name": "default",
+	"scripts": {
+		"test": "eslint --fix *.ts *.tsx *>&1 > eslint.log"
+	},
+	"eslintConfig": {
+		"root": true,
+		"extends": "@professional-js/eslint-config/all.dangerzone",
+		"ignorePatterns": [ "__pkg__" ],
+		"parserOptions": {
+			"ecmaVersion": 2021,
+			"project": "./tsconfig.json",
+			"sourceType": "module"
+		}
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.10.0",
+		"@typescript-eslint/parser": "^5.10.0",
+		"@professional-js/eslint-config": "file:./__pkg__",
+		"eslint": "^8.7.0",
+		"eslint-plugin-react": "^7.28.0",
+		"react": "17.0.2",
+		"typescript": "4.5.5"
+	}
+}

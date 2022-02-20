@@ -1,0 +1,12 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": false, // would mess up intentional errors in tests
+	},
+	"conventionalCommits.gitmoji": false,
+	"conventionalCommits.scopes": [
+		"build",
+		"test",
+		"rule",
+		"config"
+	],
+}

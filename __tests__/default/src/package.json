@@ -1,0 +1,19 @@
+{
+	"type": "module",
+	"scripts": {
+		"test": "eslint --fix index.js *>&1 > eslint.log"
+	},
+	"eslintConfig": {
+		"root": true,
+		"extends": "@professional-js",
+		"ignorePatterns": [ "__pkg__" ],
+		"parserOptions": {
+			"ecmaVersion": 2021,
+			"sourceType": "module"
+		}
+	},
+	"devDependencies": {
+		"@professional-js/eslint-config": "file:./__pkg__",
+		"eslint": "^8.7.0"
+	}
+}

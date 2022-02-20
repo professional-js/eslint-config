@@ -1,0 +1,24 @@
+
+__test-results__/react/react.ts
+	3:24	error	Unsafe return of an `any` typed value	@typescript-eslint/no-unsafe-return
+	3:24	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	6:2	error	Unsafe return of an `any` typed value	@typescript-eslint/no-unsafe-return
+	6:9	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	9:23	error	Component definition is missing display name	react/display-name
+	9:28	error	Unsafe return of an `any` typed value	@typescript-eslint/no-unsafe-return
+	9:28	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	12:2	error	Unsafe return of an `any` typed value	@typescript-eslint/no-unsafe-return
+	12:9	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	15:14	error	Unsafe assignment of an `any` value	@typescript-eslint/no-unsafe-assignment
+	15:18	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	15:18	error	Component definition is missing display name	react/display-name
+	16:2	error	Unsafe return of an `any` typed value	@typescript-eslint/no-unsafe-return
+	16:9	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+
+__test-results__/react/react.tsx
+	0:0	error	Parsing error: "parserOptions.project" has been set for @typescript-eslint/parser.
+The file does not match your project config: react.tsx.
+The file must be included in at least one of the projects provided
+
+Γ£û 15 problems (15 errors, 0 warnings)
+

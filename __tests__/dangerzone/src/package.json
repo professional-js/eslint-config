@@ -1,0 +1,10 @@
+{
+	"type": "module",
+	"scripts": {
+		"test": "eslint --fix index.js *>&1 > eslint.log"
+	},
+	"devDependencies": {
+		"@professional-js/eslint-config": "file:./__pkg__",
+		"eslint": "^8.7.0"
+	}
+}

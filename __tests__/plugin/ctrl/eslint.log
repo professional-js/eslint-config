@@ -1,0 +1,46 @@
+
+__test-results__/plugin/assertions.ts
+	4:7	error	'foox' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	4:19	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	6:7	error	'fooy' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	6:14	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	8:7	error	'fooz' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	11:7	error	'fooa' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	11:21	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	13:7	error	'foob' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	13:19	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	18:7	error	'bar' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	20:10	error	'foo' is defined but never used	@typescript-eslint/no-unused-vars
+	26:7	error	'foon' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	26:22	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	29:7	error	'foom' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	29:14	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	32:7	error	'fool' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	36:9	error	Forbidden non-null assertion	@typescript-eslint/no-non-null-assertion
+	40:7	error	'foos' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	40:19	error	No magic number: 3	@typescript-eslint/no-magic-numbers
+	43:7	error	'vy' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	43:12	error	No magic number: 1	@typescript-eslint/no-magic-numbers
+	45:7	error	'cy' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	45:12	error	No magic number: 1	@typescript-eslint/no-magic-numbers
+	50:7	error	'z0' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	52:7	error	'z1' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	54:7	error	'z2' is assigned a value but never used	@typescript-eslint/no-unused-vars
+	54:18	error	No magic number: 1	@typescript-eslint/no-magic-numbers
+
+__test-results__/plugin/index.ts
+	1:7	error	Unsafe assignment of an `any` value	@typescript-eslint/no-unsafe-assignment
+	1:14	error	Unsafe call of an `any` typed value	@typescript-eslint/no-unsafe-call
+	1:16	warning	Unexpected whitespace between function name and paren	@typescript-eslint/func-call-spacing
+	3:1	error	Unexpected newline between function and ( of function call	no-unexpected-multiline
+	6:2	error	Unsafe member access .increment on an `any` value	@typescript-eslint/no-unsafe-member-access
+	12:2	error	Unsafe member access .decrement on an `any` value	@typescript-eslint/no-unsafe-member-access
+	15:10	error	'tryMe' is defined but never used	@typescript-eslint/no-unused-vars
+	16:30	error	No magic number: 1	@typescript-eslint/no-magic-numbers
+	17:30	error	No magic number: -1	@typescript-eslint/no-magic-numbers
+	20:24	error	No magic number: 10	@typescript-eslint/no-magic-numbers
+	33:45	error	'Enum' was used before it was defined	@typescript-eslint/no-use-before-define
+	34:43	error	A function with a name starting with an uppercase letter should only be used as a constructor	new-cap
+
+Γ£û 39 problems (38 errors, 1 warning)
+
