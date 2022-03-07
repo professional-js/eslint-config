@@ -1,6 +1,6 @@
 {
 	"name": "@professional-js/eslint-config",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "eslint configuration for professionals",
 	"main": "eslintrc.default.js",
 	"exports": {
@@ -108,7 +108,7 @@
 			"node": true
 		},
 		"parserOptions": {
-			"ecmaVersion": 2021,
+			"ecmaVersion": 2019,
 			"project": "./tsconfig.json",
 			"sourceType": "module"
 		}
